@@ -2,7 +2,7 @@ function displayJSONData() {
             const jsonDataContainer = document.getElementById('json-data');
 
             // Replace this URL with the actual URL of your JSON data
-            const jsonDataURL = 'https://example.com/data.json';
+            const jsonDataURL = 'general_data.csv';
 
             // Fetch the JSON data from the URL
             fetch(jsonDataURL)
